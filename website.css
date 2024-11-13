@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url(website.jpg);
+}
+.main-container{
+    width: 350px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-radius: 17px;
+    position: relative;
+    background-color: rgba(25, 213, 255, 0.319);
+    backdrop-filter: blur(1.2px);
+    top: 150px;
+}
+
+h1{
+    font-size: 50px;
+    position: absolute;
+    top: 10px;
+
+}
+
+.User{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.Pass{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.User input{
+    width: 250px;
+    height: 50px;
+    border-color: rgb(62, 184, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.Pass input{
+    width: 250px;
+    height: 50px;
+    border-color: rgb(62, 184, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.forgot{
+    position: relative;
+    top: 20px;
+    left: 92px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.remember{
+    position: relative;
+    top: 59px;
+    right: 15px;
+}
+
+.remember p{
+    position: relative;
+    left: 20px;
+    bottom: 19px;
+}
+.button{
+    padding: 10px;
+    padding-top: 15px;
+    text-align: center;
+    position: relative;
+    top: 35px;
+    cursor: pointer;
+}
+.button .b{
+    padding: 10px;
+    width: 150px;
+    border-radius: 50px;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+
+.b:hover{
+    background-color: rgba(5, 70, 145, 0.793);
+}
